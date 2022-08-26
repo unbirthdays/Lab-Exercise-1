@@ -166,7 +166,7 @@ let z = 5;
 //CODE HERE
 
 while (z > 0) {
-  for (i = z; i >= 1; i--) {
+  for (let i = z; i >= 1; i--) {
     console.log(i);
   }
   z--;
